@@ -1,0 +1,294 @@
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+.navfull {
+  height: 600px;
+  background-color: #b0d91e;
+}
+
+.navbar {
+  height: 70px;
+  color: white;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+}
+
+/* logo */
+.navlogo {
+  background-image: url("logo_1.png");
+  background-size: cover;
+  height: 100px;
+  width: 90px;
+  margin-top: 40px;
+  margin-left: 60px;
+}
+
+/*nav Text*/
+.navtext ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 300px;
+}
+
+.navtext li {
+  list-style: none;
+  padding: 20px;
+  font-size: 1.3rem;
+}
+
+/*login button*/
+.navbutton {
+  margin-left: 100px;
+}
+
+.navbutton i {
+  font-size: 1.7rem;
+  padding: 40px;
+}
+
+.signup {
+  height: 30px;
+  width: 70px;
+  font-weight: bold;
+  background-color: #1ed9aa;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 0rem;
+  border-radius: 8px;
+}
+
+.signup:hover {
+  background-color: green;
+}
+
+/*foot image*/
+.footimg {
+  background-image: url("home-bottom-shape.png");
+  height: 300px;
+  width: 100%;
+  background-size: cover;
+  position: absolute;
+  top: 300px;
+  /* border: 4px solid black; */
+}
+
+/*Nature Image */
+/* .natureimg{
+    background-image: url("matur_img1.png");
+    background-size: cover;
+    height: 250px;
+    width: 320px;
+    margin-top: 70px;
+} */
+.hov:hover {
+  color: aquamarine;
+  text-shadow: 2px 2px 4px rgba(60, 53, 53, 0.419);
+}
+
+/*Hero Image */
+.heroimg {
+  background-image: url("matur_img1.png");
+  height: 400px;
+  width: 520px;
+  /* border:5px solid black; */
+  background-size: cover;
+  position: absolute;
+  top: 125px;
+  left: 70px;
+}
+
+/* Search tab */
+.search {
+  height: 40px;
+  width: 350px;
+  border-radius: 25px;
+  border: 0rem;
+  outline-style: none;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  position: absolute;
+  right: 35%;
+  top: 25%;
+  box-shadow: 4px 4px 14px 0px rgba(74, 74, 61, 0.342);
+}
+
+/* Nature is in Denger*/
+.denger {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.box {
+  height: 320px;
+  width: 280px;
+  margin: 20px;
+  border: 0px;
+  border-radius: 6px;
+  box-shadow: 4px 4px 14px 0px rgba(74, 74, 61, 0.342);
+}
+
+.dangimg {
+  height: 170px;
+  width: 280px;
+  padding: 10px;
+
+}
+
+.dangimg img {
+  border-radius: 6px;
+}
+
+.box h4 {
+  margin-left: 20px;
+}
+
+.box article {
+  margin: 10px;
+  font-size: 0.8rem;
+}
+
+.read {
+  height: 30px;
+  width: 100px;
+  border-radius: 20px;
+  border: 0px;
+  background-color: #d9eff9f5;
+  color: blue;
+
+}
+
+.divread {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dengereffect {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+/*articles about Climate change */
+.climate {
+  height: 300px;
+  width: 700px;
+  /* border: 4px solid black; */
+  margin-top: 50px;
+  padding: 10px;
+  border-radius: 30px;
+  box-shadow: 4px 4px 14px 0px rgba(74, 74, 61, 0.342);
+}
+
+.news1 {
+  font-size: 1.1rem;
+  /* font-weight: 2000; */
+}
+
+.climg {
+  position: relative;
+  top: 20px;
+  /* font-weight: 300; */
+}
+
+.para {
+  height: 200px;
+  width: 350px;
+  /* border: 4px solid black; */
+  position: relative;
+  bottom: 170px;
+  left: 320px;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.climatebutton {
+  position: relative;
+  bottom: 200px;
+  left: 400px;
+  /* border: 4px solid black;  */
+}
+
+.Climate1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.vision {
+  /* margin-top: 100px; */
+  margin: 70px;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.naturevision {
+  background-image: url("back-img.jpg");
+  background-size: cover;
+  height: 300px;
+  width: 500px;
+  margin: 50px;
+  border-radius: 15px;
+  box-shadow: 4px 4px 14px 0px rgba(74, 74, 61, 0.342);
+}
+
+/*footer*/
+.footbar {
+  height: 210px;
+  background-image: url("footer_nice2.webp");
+  color: black;
+  padding: 50px;
+  width: 100%;
+}
+
+.footimage {
+  display: flex;
+  padding: 10px;
+  justify-content: space-evenly;
+  margin-left: 400px;
+}
+
+hr {
+  background-color: black;
+  border-color: black;
+}
+
+.foottext1 {
+  font-size: 1.5rem;
+  /* border: 2px solid black; */
+  text-align: center;
+  margin-top: 20px;
+}
+
+.youcon {
+  /* border: 2px solid black; */
+  position: relative;
+  bottom: 30px;
+  right: 400px;
+  padding-left: 100px;
+}
+
+.youcon i {
+  padding-left: 30px;
+}
+
+.vision2 {
+  /* border: 2px solid aqua; */
+  height: 200px;
+  width: 500px;
+  position: relative;
+  left: 100px;
+  top: 50px;
+  font-size: 1.5rem;
+}
+
+.vision1 {
+  display: flex;
+}
